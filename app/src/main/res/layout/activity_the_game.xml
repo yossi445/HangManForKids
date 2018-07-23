@@ -61,8 +61,23 @@
     </LinearLayout>
 
 <TextView
+    android:id="@+id/tvCategory"
     android:layout_width="match_parent"
-    android:layout_height="60dp" />
+    android:layout_height="20dp"
+    android:text="קטגוריה"
+    android:gravity="center"
+    android:background="#dae8f5"
+    />
+    <TextView
+        android:id="@+id/tvGuess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="#dae8f5"
+
+        />
 
     <LinearLayout
         android:id="@+id/line1"
@@ -87,7 +102,6 @@
             android:layout_marginRight="10dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
              />
 
         <Button
@@ -107,7 +121,6 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
         <Button
@@ -127,7 +140,6 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
         <Button
@@ -147,7 +159,6 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
         <Button
@@ -167,7 +178,6 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
         <Button
@@ -187,7 +197,6 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
         <Button
@@ -207,7 +216,6 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
     </LinearLayout>
@@ -235,7 +243,6 @@
             android:layout_marginRight="10dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
         <Button
@@ -255,7 +262,6 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
         <Button
@@ -275,7 +281,6 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
         <Button
@@ -295,7 +300,6 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
         <Button
@@ -315,7 +319,6 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
         <Button
@@ -335,7 +338,6 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
         <Button
@@ -355,7 +357,6 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
     </LinearLayout>
@@ -383,7 +384,6 @@
             android:layout_marginRight="10dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
         <Button
@@ -403,7 +403,6 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
         <Button
@@ -423,7 +422,6 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
         <Button
@@ -443,7 +441,6 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
         <Button
@@ -463,7 +460,6 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
         <Button
@@ -483,7 +479,6 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
         <Button
@@ -503,7 +498,6 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
 
     </LinearLayout>
@@ -530,7 +524,6 @@
             android:layout_marginRight="160dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:onClick="onButtonClick"
             />
     </LinearLayout>
     </LinearLayout>
